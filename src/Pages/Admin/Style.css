@@ -1,0 +1,145 @@
+
+.formOuter {
+    background-image: url('https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80');
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+ .form {
+    border: solid 1px;
+    padding: 50px;
+    background-color: #ffffffbe;
+    border-radius: 5px;
+}
+.main {
+    background-image: url('https://images.unsplash.com/photo-1563865436914-44ee14a35e4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vh;
+}
+.main h1 span {
+    color: rgb(55, 55, 56);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b2430;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #17cf97;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* Style.css */
+
+/* Style for the logo-and-admin container */
+/* Style.css */
+
+/* Style for the outer box */
+.outer-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the inner box */
+.inner-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the "Add User" button */
+.inner-box button {
+  background-color: #17CF97;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the search input field */
+.inp-fld {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style for table header cells */
+th {
+  /* background-color: #17CF97; */
+  color: black;
+  padding: 10px;
+}
+
+/* Style for table data cells */
+td {
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+}
+
+  
